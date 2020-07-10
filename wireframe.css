@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+   color: rgb(110, 108, 108);
+}
+a:hover{
+    color: rgb(133, 35, 120);
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.nav-item, .nav-item div, .loginbox{
+    display: flex;
+    align-items: center;
+}
+.navbar p{
+    margin: auto 1rem
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(110, 108, 108);
+    font-weight: 600;
+    font-size: 1.2rem
+}
+.navbar a:hover{
+    color: rgb(133, 35, 120);
+    
+}
+.sign-up a{
+    color: white;
+    background-color: rgb(110, 108, 108);
+    padding: 0.5rem 1.4rem;
+    text-decoration: none;
+}
+.sign-up a:hover{
+    color: rgb(133, 35, 120);
+    background-color: rgb(255, 255, 255);
+    border: 0.1rem solid rgb(133, 35, 120);
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background: rgb(197, 196, 196) ;
+    
+}
+.hero p:nth-child(1){
+    font-size: 3rem;
+    color: rgb(110, 108, 108);
+}
+.hero p:nth-child(2){
+    font-size: 1.04rem;
+    color: rgb(110, 108, 108);;
+}
+.hero input{
+    width: 50vw;
+    margin: 10px auto;
+    padding: 5px;
+    border: none;
+    border-radius: 0.2rem;
+}
+.hero input::placeholder{
+    color: rgb(218, 218, 218);
+    
+}
+.about{
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: rgb(110, 108, 108);
+    padding: 0 7rem;
+}
+.about div:nth-child(1){
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.about div:nth-child(2){
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about p{
+    margin: 1rem 0;
+}
+.about p:nth-child(1){
+    font-size: 2rem;
+}
+.action{
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.action p:nth-child(1){
+    font-size: 2.5rem;
+}
+.service{
+    display: flex;
+    width: 100%;
+    padding: 0 7rem;
+}
+.services-items{
+    width: 20%;
+}
+.services-items ol{
+    list-style-type: none;
+    
+}
+.services-items ol li{
+    height: 5rem;
+}
+.services-items ol a{
+    text-decoration: none;
+    font-size: 1.9rem;
+    line-height: 4rem;
+    
+}
+.service-head{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.service-more{
+    list-style-type: "> ";                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+}
+.services-box{
+    width: 80%;
+}
+.service-box-badge  p{
+    font-size: 1.2rem;
+}
+.service-box-badge img{
+    margin-bottom: 0.8rem;
+}
+.service-text{
+    /* color: lawngreen; */
+    font-size: 1.5rem !important;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.service-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.service-thumbnail{
+    display: flex;
+    align-items: center;
+}
+.service-dp{
+    width: 3rem;
+    height: 3rem;
+    background: lightsalmon;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+}
+.service-profile-name{
+    display: flex;
+    align-items: baseline;
+}
+.service-time{
+    margin-left: 0.5rem;
+    font-size: 0.8rem !important;
+}
+.top-users{
+    height: 50vh;
+    width: 100%;
+    padding: 0 7rem;
+    background: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.users-card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.users-img{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background: rgb(145, 141, 145);
+}
+.users-details p:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+
+}
+.top-users-head{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    /* font-weight: bold; */
+}
+.users-scroll{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carousel-bullet-case{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.carousel-bullet{
+    width: 1rem;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+.active-bullet{
+    background:rgb(155, 152, 152) ;
+}
+.teams{
+    height: 55vh;
+    background: rgb(65, 64, 64);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 7rem;
+}
+.team-head{
+    width: 22rem;
+    height: 5rem;
+    background: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+}
+.team-member{
+    width: 30%;
+    height: 17vw;
+    background: white;
+}
+.team-case{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    height: 10vh;
+    background: rgb(110, 108, 108);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7rem;
+}
+.copyright{
+    width: 20%;
+    height: 20px;
+    background: white;
+}
+.social-icon-case{
+    display: flex;
+}
+.social-icon{
+    width: 15rem;
+    height: 20px;
+    background: white;
+    margin-left: 12px;
+}
